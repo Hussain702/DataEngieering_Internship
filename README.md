@@ -35,3 +35,23 @@ This week focused on orchestrating data workflows using Apache Airflow. We built
 - Task definitions for extract, transform, and load phases
 - Integration with Azure Data Lake
 - Warehouse-ready data format
+
+
+##Week 03 – Data Warehousing & Pakistan Energy Analytics
+
+##Overview
+This week covered data warehousing concepts and their application using Azure Synapse Analytics. We designed scalable warehouse schemas and built an end-to-end ETL + analytics pipeline for the Pakistan Residential Energy & Weather project.
+
+##Topics Covered
+--Star vs Snowflake schema design
+--Partitioning, clustering & performance tuning
+--Azure Synapse internals & SQL optimization
+--Airflow integration with Synapse
+--BigQuery ML concepts (reference only)
+
+##Deliverables
+--Star schema for energy usage data
+--SQL scripts for warehouse tables in Synapse
+--Optimized fact/dimension tables with partitioning
+--ETL pipeline using Airflow
+--Comparison of Synapse and BigQuery features
