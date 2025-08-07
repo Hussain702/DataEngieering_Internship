@@ -1,5 +1,6 @@
 from airflow.decorators import dag, task
 from airflow.providers.microsoft.azure.hooks.wasb import WasbHook
+from airflow.providers.http.hooks.http import HttpHook
 from airflow.providers.odbc.hooks.odbc import OdbcHook
 from azure.storage.blob import BlobServiceClient
 from datetime import datetime
