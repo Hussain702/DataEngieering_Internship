@@ -55,3 +55,28 @@ This week covered data warehousing concepts and their application using Azure Sy
 - Optimized fact/dimension tables with partitioning
 --ETL pipeline using Airflow
 --Comparison of Synapse and BigQuery features
+
+
+# Week 04 – Data Ingestion, Transformation with dbt, and Power BI Analytics
+## Overview
+This week focused on building an end-to-end modern data workflow — from ingesting raw NYC taxi data into the data lake, transforming it into analytics-ready tables using dbt Core, and visualizing the results in Power BI. We deepened our understanding of dbt’s role in the ELT process, learned key modeling techniques, and practiced creating a star schema directly from staging data for business-friendly reporting.
+
+# Topics Covered
+
+- Data ingestion of NYC taxi datasets into Azure Data Lake and Synapse Warehouse
+- dbt Core fundamentals: models, sources, ref(), materializations, and testing
+- Transforming raw staging tables into clean, analytics-ready datasets
+- Star schema design in dbt from staging tables
+- Building interactive dashboards and visualizations in Power BI
+- Best practices for integrating dbt transformations with BI tools
+
+# Deliverables
+
+- Raw-to-staging ingestion pipeline for NYC taxi data
+- dbt project with staging, intermediate, and mart layer models
+- Star schema fact and dimension tables generated via dbt
+- Power BI dashboard connected to Synapse, showcasing insights from transformed taxi data
+
+
+
+  
