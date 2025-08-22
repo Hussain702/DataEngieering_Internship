@@ -79,4 +79,23 @@ This week focused on building an end-to-end modern data workflow — from ingest
 
 
 
-  
+  # **Week 05 – Apache Spark, PySpark, Databricks & Capstone Project**
+
+## **Overview**
+This week focused on big data processing using Apache Spark and PySpark within Databricks. We explored Spark’s core concepts, developed transformation pipelines, and integrated Spark into our broader data engineering workflow. The week culminated in a capstone project where we applied Spark and Databricks to build an end-to-end data solution.
+
+## **Topics Covered**
+- **Introduction to Apache Spark and distributed computing**  
+- **Spark architecture:** RDDs, DataFrames, and Spark SQL  
+- **PySpark basics:** transformations, actions, and optimizations  
+- **Working with Databricks notebooks and clusters**  
+- **Building scalable ETL pipelines using Spark**  
+- **Integrating Spark with Azure Data Lake and Synapse**  
+- **Performance tuning and best practices for Spark jobs**  
+- **End-to-end project combining ingestion, transformation, and analytics**  
+
+## **Deliverables**
+- **Hands-on notebooks demonstrating Spark transformations and actions**  
+- **PySpark-based ETL pipeline running in Databricks**  
+- **Bronze, Silver, and Gold layer design using Spark**  
+- **Final capstone project showcasing a complete pipeline (Azure Data Lake + Spark + Synapse)**  
